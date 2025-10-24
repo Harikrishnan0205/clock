@@ -1,0 +1,33 @@
+.clock{
+    width: 200px;
+    height:200px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+}
+
+
+#center-dot{
+    width: 10px;
+    height:10px; 
+    border-radius: 50%;
+    background-color: black;  
+    position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); 
+     z-index: 10;
+}
+#min{
+    width: 5px;
+    height:90px;
+     background-color: lightcoral;  
+     position:absolute;
+     top: 10px;
+     left:50%;
+     transform: rotate(0deg);
+     transform-origin: bottom center;
+    
+}
+
